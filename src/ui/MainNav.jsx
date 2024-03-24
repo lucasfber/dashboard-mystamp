@@ -54,7 +54,7 @@ export default function MainNav() {
     <nav>
       <NavList>
         <li>
-          <StyledNavLink to={"/dashboard"}>
+          <StyledNavLink to={"/"}>
             <HiOutlineHome />
             <span>Início</span>
           </StyledNavLink>

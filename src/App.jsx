@@ -14,8 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route element={<AppLayout />}>
-            <Route index element={<Navigate to="/dashboard" />} />
-            <Route path="dashboard" element={<Dashboard />} />
+            <Route index path="/" element={<Dashboard />} />
             <Route path="cartoes" element={<Cards />} />
             <Route path="clientes" element={<Customers />} />
             <Route path="promocoes" element={<Promotions />} />
